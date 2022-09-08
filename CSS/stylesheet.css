@@ -1,7 +1,20 @@
-
-
+* {
+    box-sizing: border-box;
+}
 body {
     width: 50%;
     margin: auto;
     background-color: bisque;
+}
+.recipe-one {
+    margin: 10px;
+}
+.recipe-two {
+    margin: 10px;
+}
+.recipe-three {
+    margin: 10px;
+}
+.top-button {
+    margin: 20px;
 }
