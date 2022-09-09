@@ -4,16 +4,45 @@
 body {
     width: 50%;
     margin: auto;
-    background-color: bisque;
+    background-color: white;
+}
+.head {
+    width: 600px;
+    font-size: 70px;
+    margin: 0 auto;
+    padding: 40px;
+    font-family: monospace;
+}
+.image {
+    margin-bottom: 40px; 
+    
 }
 .recipe-one {
-    margin: 10px;
+    width: 400px;
+    height: 140px;
+    margin: 0 auto;
+    background-color: gainsboro;
+    padding: 20px;
+    border-left: 3px solid black;
+    margin-bottom: 20px;
+    
 }
 .recipe-two {
-    margin: 10px;
+    width: 400px;
+    height: 140px;
+    margin: 0 auto;
+    background-color: gainsboro;
+    padding: 20px;
+    border-left: 3px solid black;
+    margin-bottom: 20px;
 }
 .recipe-three {
-    margin: 10px;
+    width: 400px;
+    height: 140px;
+    margin: 0 auto;
+    background-color: gainsboro;
+    padding: 20px;
+    border-left: 3px solid black;
 }
 .top-button {
     margin: 20px;
