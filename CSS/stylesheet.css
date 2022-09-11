@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    border: 1px solid red;
 }
 body {
     background-color:#FFD700;
@@ -22,4 +23,37 @@ body {
 }
 .wel:visited {
     color: black;
+}
+.description-container {
+    display: flex;
+    justify-content: center;
+}
+.description {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-around;
+}
+.des {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    border-bottom: 3px solid #CD7F32;
+    padding: 4px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 100px;
+    border-bottom:4px solid #880808;
+    width: 260px;
+    align-self: center;
+    
+}
+
+img {
+    width: 25px;
+    height: 25px;
 }
