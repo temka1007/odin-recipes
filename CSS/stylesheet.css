@@ -2,48 +2,24 @@
     box-sizing: border-box;
 }
 body {
-    width: 50%;
-    margin: auto;
-    background-color: white;
+    background-color:#FFD700;
 }
-.head {
-    width: 600px;
+.welcome-container {
+    display: flex;
+    justify-content: center;
+}
+.welcome {
+    display: flex;
     font-size: 70px;
-    margin: 0 auto;
-    padding: 40px;
-    font-family: monospace;
+    flex-direction: column;
+    justify-content: center;
+    height: 850px;  
 }
-.image {
-    margin-bottom: 40px; 
-    
+.wel {
+    border-top: 5px solid #880808;
+    border-bottom: 5px solid #880808;
+    color: black;
 }
-.recipe-one {
-    width: 400px;
-    height: 140px;
-    margin: 0 auto;
-    background-color: gainsboro;
-    padding: 20px;
-    border-left: 3px solid black;
-    margin-bottom: 20px;
-    
-}
-.recipe-two {
-    width: 400px;
-    height: 140px;
-    margin: 0 auto;
-    background-color: gainsboro;
-    padding: 20px;
-    border-left: 3px solid black;
-    margin-bottom: 20px;
-}
-.recipe-three {
-    width: 400px;
-    height: 140px;
-    margin: 0 auto;
-    background-color: gainsboro;
-    padding: 20px;
-    border-left: 3px solid black;
-}
-.top-button {
-    margin: 20px;
+.wel:visited {
+    color: black;
 }
