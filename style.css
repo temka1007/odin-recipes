@@ -1,0 +1,79 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+  font-family: "Tsukimi Rounded", serif;
+}
+.homepage {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fffaf0;
+}
+
+h1 {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  font-family: "Playwrite AU SA", serif;
+  color: #6b4226;
+}
+
+h2 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+  color: #f4a261;
+}
+
+img {
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Raleway", serif;
+  color: #f4a261;
+}
+
+a:visited {
+  color: #f4a261;
+}
+
+a:hover {
+  color: #ffc20e;
+}
+
+.creamy-pasta {
+  display: flex;
+  height: 100vh;
+}
+
+/* recipe page  */
+
+.recipe-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.recipe-page h1 {
+  border-bottom: 2px solid #f4a261;
+}
+
+.recipe-page a {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
