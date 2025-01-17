@@ -63,8 +63,8 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 35%;
+  padding-right: 35%;
 }
 
 .recipe-page h1 {
